@@ -45,15 +45,16 @@ section {
     margin-bottom: 10%;
 }
 
-.link-button {
-    padding: 8px 15px;
+.link-button1,
+.link-button2:hover {
+    padding: 10px 40px;
     text-decoration: none;
     border-radius: 10px;
     color: blanchedalmond;
     background: rgb(167, 28, 74);
-    font-size: 20px;
+    font-weight: 700;
     text-align: center;
-
+    background-image: linear-gradient(orange, tomato);
 
 }
 
@@ -69,6 +70,7 @@ section {
 .boxC,
 .boxD,
 .boxE {
+
     font-size: 20px;
     border-radius: 10px;
     font-weight: 40px;
@@ -86,10 +88,15 @@ section {
     justify-content: space-between;
 }
 
-.boxB {
-    border: 3px solid crimson;
+.boxB:hover {
+
+    border-top: 3px solid crimson;
     color: crimson;
-    background-color: tomato;
+    background-color: plum;
+}
+
+.boxB {
+    border: 3px solid plum;
 }
 
 .text-added {
@@ -103,7 +110,8 @@ section {
 
 .line {
 
-    width: 1200px;
+    border-left: 20px;
+    border-right: 20px;
     height: 2px;
     background-color: burlywood;
     margin-bottom: 20px auto;
@@ -111,7 +119,163 @@ section {
 }
 
 .Taka {
+    font-size: 20px;
     width: 500px;
     border: none;
     text-align: center;
+}
+
+.fmaily-plan {
+    padding: 20px;
+
+
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.plan {
+
+    padding: 5%;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.plan1 {
+
+
+    align-items: center;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.baby1,
+.baby2,
+.baby3 {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    border: 3px solid whitesmoke;
+}
+
+.baby1 {
+    background-color: aqua;
+}
+
+
+
+.baby2 {
+    background-color: darksalmon;
+}
+
+.baby3 {
+    background-color: goldenrod;
+}
+
+.color {
+    color: coral;
+}
+
+.image-added {
+
+    display: flex;
+}
+
+.image-added h1 {
+    font-size: 40px;
+}
+
+.forth-added {
+
+    width: 50%;
+    padding-left: 5%;
+}
+
+
+.forth-added img {
+    width: 80%;
+}
+
+
+.forth-added2 {
+
+    width: 50%;
+    padding-left: 5%;
+}
+
+.image-added2 {
+    display: flex;
+}
+
+.image-added2 h1 {
+    font-size: 40px;
+}
+
+.image-added2 img {
+    width: 100%;
+    display: cover;
+    text-align: center;
+    background-position: right;
+}
+
+.update {
+    font-size: 15px;
+    text-align: center;
+}
+
+.update h1 {
+    font-size: 40px;
+}
+
+.submit {
+    font-weight: 25px;
+    text-decoration: none;
+    background-color: tomato;
+}
+
+.email-box {
+    background-color: bisque;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    margin-left: 550px;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+}
+
+.email {
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.link-button {
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: blanchedalmond;
+    background: rgb(167, 28, 74);
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradientorange(pink, yellow);
+
+}
+
+
+
+.footer h2 {
+    color: brown;
+
+    font-weight: 200;
+}
+
+.footer {
+
+    justify-content: center;
+
+    height: 130px;
+    text-align: center;
+    background-color: darkblue;
 }
